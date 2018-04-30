@@ -37,10 +37,10 @@ if ((!empty($_GET['id']))&&(!empty($_GET['q']))) {
 	}
 	if($_GET['q']==1){//imagem
 		if(next_img($id,$id_album,$conn)){
-			echo "<div style='right: 0;color: #fff;background-color: #000;' class='forwarnext mdl-button mdl-js-button mdl-button--raised mdl-button--colored opacity'><i class='material-icons' onclick='next_midia(".$id.")'>chevron_right</i></div>";
+			echo "<div id='rightNext' style='right: 0;color: #fff;background-color: #000;' class='forwarnext mdl-button mdl-js-button mdl-button--raised mdl-button--colored opacity'><i class='material-icons' onclick='next_midia(".$id.")'>chevron_right</i></div>";
 		}
 		if(back_img($id,$id_album,$conn)){
-    		echo "<div style='left: 0;color: #fff;background-color: #000' class='forwarnext mdl-button mdl-js-button mdl-button--raised mdl-button--colored opacity'><i class='material-icons' onclick='back_midia(".$id.")'>chevron_left</i></div>";
+    		echo "<div id='leftBack' style='left: 0;color: #fff;background-color: #000' class='forwarnext mdl-button mdl-js-button mdl-button--raised mdl-button--colored opacity'><i class='material-icons' onclick='back_midia(".$id.")'>chevron_left</i></div>";
     	}
     	switch ($tipo_midia) {
     		case 1:
