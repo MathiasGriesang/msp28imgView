@@ -1,4 +1,4 @@
-1)colocar todos os documentos baixados em uma pasta chamada "plugin"
+1)criar colocar todos os documentos baixados em uma pasta chamada "plugin"
 
 2)colocar as seguintes linhas no seu código dentro da tag <head>
 <meta charset="utf-8">
