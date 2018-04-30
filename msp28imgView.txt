@@ -1,0 +1,24 @@
+  <div id="msp28imgView" style="z-index: 99;position:fixed;top:0;left:0;width: 100%;height: 100%;background-color: rgba(0,0,0,0.8);display: none;">
+    <div style="position: fixed;top:calc(50% - 59.0665px);left: calc(50% - 100px);width: 100%;" id="loadX">
+      <img src="plugin/msp28imgView.png" style="width:165px;">
+      <div style='margin-left: calc(-50% + 100px)' class='mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
+        <div style='float: left;' class='mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--3-col-phone'></div>
+        <div  style='float: left; padding: 0px!important;' class='mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--6-col-phone mdl-progress mdl-js-progress mdl-progress__indeterminate'></div>
+      </div>
+    </div>
+    <div style="display: none;" id='container2'>
+      <div class='mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone adjust'>
+        <div style='float: left;height: 100%;text-align: center;' class='mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
+          <div style='height: 100%;width: 100%;float: left' id="imgAndArrows">
+          </div>
+        </div>
+        <div style='padding: 10px;background-color: #fff;overflow-y: auto' class='mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone adjust' id="showText">
+        </div>
+      </div>
+    </div>
+    <div style='padding: 10px;position: fixed;top:0px;right: 0px;display: none;' id="closeX">
+      <button style='cursor: pointer;' class='mdl-button mdl-js-button mdl-button--raised mdl-button--colored' onclick='close_midia()'>
+        <i class='material-icons'>close</i>
+      </button>
+    </div>
+  </div>
