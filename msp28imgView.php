@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "ova";
+$dbname = "database";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
